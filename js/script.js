@@ -16,7 +16,7 @@ outputspesa.innerHTML = '';
 //Ciclo While con counter
 while (counter < listaSpesa.length) {
   const item = listaSpesa[counter];
-  outputspesa.innerHTML += `<ul>${item}</ul>`;
+  outputspesa.innerHTML += `<li>${item}</li>`;
   counter++;
   console.log(item);
 }
